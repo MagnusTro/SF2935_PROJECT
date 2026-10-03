@@ -44,7 +44,7 @@ class RFF:
         corresponding fourier dist. is Gaussian
             omega ~ N(0, 2*gamma*I_d)
         """
-
+    
         rng = np.random.default_rng(self.random_state)
 
         d = X.shape[1] # number of input dimensions
